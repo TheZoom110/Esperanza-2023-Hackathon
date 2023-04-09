@@ -1,0 +1,11 @@
+.body{
+    background: linear-gradient(rgb(225,204,204),rgb(158,170,170));
+    padding-left: min(15%, 100px);
+    padding-top: 25px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    border-radius: 1rem;
+}

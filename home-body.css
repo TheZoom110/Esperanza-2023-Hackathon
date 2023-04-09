@@ -1,0 +1,73 @@
+.body{
+  background: linear-gradient(rgb(225, 204, 204),rgb(158, 170, 170));
+  margin: -2rem 0;
+  width: 100vw;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    padding-bottom: 700px;
+    bottom: 100px;
+}
+
+.logo h1{
+    color: rgb(255, 165, 0);
+    /* -webkit-text-stroke-color: 2px navy; */
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.btn{
+    margin: 5px 8px;
+    background-color: rgb(57, 215, 57);
+    color: white;
+    padding: 6px 5px;
+    border: 1px rgb(57, 215, 57);
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: rgb(220, 109, 109);
+    
+}
+.logo p{
+    text-shadow: 0 0 3px #290303, 0 0 5px #010109;
+    
+}
+  
+  .logo img {
+    max-width: 200px;
+    position: relative;
+    padding-top: 750px;
+    bottom: 1px;
+  }
+  #mainimg{
+    background-image: url('assets/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top:0;
+    opacity:0.8;
+  }
+  #academics a{
+    color: red;
+  }
+  .content {
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }

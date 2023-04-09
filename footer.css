@@ -1,0 +1,64 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.footer-box1{
+    display: flex;
+    margin: 1rem 0.5rem;
+    justify-content: space-evenly;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box-1 h2{
+    text-align: center;
+    
+}
+.box-1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.social a{
+    margin: 0 1rem;
+    
+}
+.social a img{
+    height: 4vh;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.social a img:hover{
+    background-color: rgb(125, 119, 111);
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box-2 h2{
+    text-align: center;
+    justify-content: center;
+}
+.box-2 ul{
+    display: flex;
+    flex-direction: column; 
+}
+.clubs{
+    padding: 0.1rem;
+}
+.footer-box2{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
